@@ -1,0 +1,15 @@
+{
+  "name": "pixijs-loader",
+  "version": "1.0.0",
+  "description": "PixiJS lazy loader",
+  "main": "js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marjan Tanevski",
+  "license": "MIT",
+  "devDependencies": {
+    "pixi.js": "^4.8.2",
+    "typescript": "^3.1.3"
+  }
+}

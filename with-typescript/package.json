@@ -1,0 +1,39 @@
+{
+  "name": "base-typescript-webpack",
+  "version": "1.0.0",
+  "description": "Base TypeScript project based on Webpack",
+  "private": true,
+  "scripts": {
+    "build:dev": "webpack --config webpack.dev.js",
+    "watch:dev": "webpack --config webpack.dev.js --watch --info-verbosity verbose",
+    "serve:dev": "webpack --config webpack.dev.js --info-verbosity verbose && node_modules/.bin/webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "webpack"
+  ],
+  "author": "marjantanevski@outlook.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/pixi.js": "^4.8.4",
+    "@webpack-cli/init": "^0.1.2",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-preset-env": "^1.7.0",
+    "copy-webpack-plugin": "^4.6.0",
+    "css-loader": "^1.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "pixi-spine": "^1.5.19",
+    "pixi.js": "^4.8.2",
+    "replace-in-file-webpack-plugin": "^1.0.6",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.3.0",
+    "typescript": "^3.1.6",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
